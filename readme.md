@@ -1,10 +1,10 @@
 # Slackbot Local Development with ngrok
 
-This guide explains how to start the Flask Slackbot server locally and expose it to the internet using **ngrok**, so Slack can send events to your local machine.
+This readme section explains how to start the Flask Slackbot server locally and expose it to the internet using **ngrok**, so Slack can send events to your local machine.
 
 ---
 
-## ✅ Prerequisites
+## 1 Prerequisites
 
 1. **Python Environment**
 
@@ -35,7 +35,7 @@ This guide explains how to start the Flask Slackbot server locally and expose it
 
 ---
 
-## ✅ Start the Flask App
+## 2 Start the Flask App
 
 1. Navigate to your working directory:
 
@@ -57,7 +57,7 @@ This guide explains how to start the Flask Slackbot server locally and expose it
 
 ---
 
-## ✅ Start ngrok Tunnel
+## 3 Start ngrok Tunnel
 
 1. Open a **new terminal window/tab** and run:
    ```bash
@@ -71,7 +71,7 @@ This guide explains how to start the Flask Slackbot server locally and expose it
 
 ---
 
-## ✅ Configure Slack App
+## 4 Configure Slack App
 
 1. In your Slack App settings:
    - Go to **Slash Commands** or **Event Subscriptions**.
@@ -83,7 +83,7 @@ This guide explains how to start the Flask Slackbot server locally and expose it
 
 ---
 
-## ✅ Test the Slash Command
+## 5 Test the Slash Command
 
 - In Slack, run your command (e.g. `/purchase_request`).
 - Check your terminal for incoming POST requests.

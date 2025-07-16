@@ -4,7 +4,7 @@ This readme section explains how to start the Flask Slackbot server locally and 
 
 ---
 
-## 1 Prerequisites
+## 1) Prerequisites
 
 1. **Python Environment**
 
@@ -35,7 +35,7 @@ This readme section explains how to start the Flask Slackbot server locally and 
 
 ---
 
-## 2 Start the Flask App
+## 2) Start the Flask App
 
 1. Navigate to your working directory:
 
@@ -57,7 +57,7 @@ This readme section explains how to start the Flask Slackbot server locally and 
 
 ---
 
-## 3 Start ngrok Tunnel
+## 3) Start ngrok Tunnel
 
 1. Open a **new terminal window/tab** and run:
    ```bash
@@ -71,7 +71,7 @@ This readme section explains how to start the Flask Slackbot server locally and 
 
 ---
 
-## 4 Configure Slack App
+## 4) Configure Slack App
 
 1. In your Slack App settings:
    - Go to **Slash Commands** or **Event Subscriptions**.
@@ -83,7 +83,7 @@ This readme section explains how to start the Flask Slackbot server locally and 
 
 ---
 
-## 5 Test the Slash Command
+## 5) Test the Slash Command
 
 - In Slack, run your command (e.g. `/purchase_request`).
 - Check your terminal for incoming POST requests.
@@ -108,5 +108,5 @@ ngrok http 3000
 
 ---
 
-✅ **You’re all set!** Your Flask Slackbot is now accessible to Slack through the ngrok tunnel.
+**You’re all set!** Your Flask Slackbot is now accessible to Slack through the ngrok tunnel.
 
